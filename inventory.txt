@@ -25,3 +25,4 @@ Australia,SKU71827,Zoom Hyperfuse,1400,15
 France,SKU20394,Eric Koston 1,2322,17
 Hong Kong,SKU90001,Nike Air Jordan,1400,4
 Vietnam,SKU40567,Nike Air Jordans,2340,23
+South Africa,SKU30486,Air Jordans,2999,20
