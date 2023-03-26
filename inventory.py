@@ -273,7 +273,27 @@ def highest_qty():
         Product: {product_details[2]}
         Cost: {product_details[3]}
         Quantity: {product_details[4]}''')
- 
+    
+    # Allow the user to change the price of an item marked for sale
+    change_price = input(" Would you like to mark down this item for sale ? Yes/No: ").lower()
+    if change_price == 'yes':
+        new_price = input("Please enter the new price: ")
+        
+        for index, product in enumerate(product_list):
+        #for product in product_list:
+            if product == sale_item: 
+                product_list[index] = Product(product_details[0],product_details[1],product_details[2],new_price,product_details[4])
+                print(f"product - {product}") 
+                print(f"sale_item - {sale_item}") 
+
+        # Write the updated product list to the inventory file
+        with open("inventory.txt", "w") as file:
+
+            #Skip the first line of the file - as this is the file header, do not overwrite
+            file.write(f"Country,Code,Product,Cost,Quantity\n")
+
+            for product in product_list:
+                file.write(f"{product.__str__()}\n")
   
 
 #==========Main Menu=============
