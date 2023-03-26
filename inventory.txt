@@ -13,7 +13,7 @@ Zimbabwe,SKU20207,Air Presto,2999,7
 Morocco,SKU77744,Challenge Court,1450,11
 Israel,SKU29888,Air Zoom Generation,2680,6
 Uganda,SKU33000,Flyknit Racer,4900,9
-Pakistan,SKU77999,Air Yeezy 2,4389,67
+Pakistan,SKU77999,Air Yeezy 2,3499,67
 Brazil,SKU44600,Air Jordan 11,3870,24
 Columbia,SKU87500,Air Huarache,2683,8
 India,SKU38773,Air Max 1,1900,29
